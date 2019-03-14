@@ -1,7 +1,9 @@
 package loianeGroner.aula80;
 
-public class ModificandoString {
+// String: modificando uma String (substring, concat, replace, trim)
 
+public class Aula80 {
+	
 	public static void main(String[] args) {
 		
 		String teste = "Isso é um teste.";

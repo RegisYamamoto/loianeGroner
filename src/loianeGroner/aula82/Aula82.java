@@ -1,6 +1,8 @@
 package loianeGroner.aula82;
 
-public class JuntandoSeparandoString {
+// String: juntando e separando String (join, split)
+
+public class Aula82 {
 
 	public static void main(String[] args) {
 		
