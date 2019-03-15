@@ -1,5 +1,7 @@
 package loianeGroner.aula53;
 
+// Enumeradores (Enum)
+
 public class Teste {
 
 	public static void main(String[] args) {
