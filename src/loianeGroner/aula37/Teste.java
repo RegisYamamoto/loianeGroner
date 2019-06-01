@@ -2,7 +2,7 @@ package loianeGroner.aula37;
 
 // Orienção a Objetos: Herança
 
-public class Inicio {
+public class Teste {
 
 	public static void main(String[] args) {
 		
