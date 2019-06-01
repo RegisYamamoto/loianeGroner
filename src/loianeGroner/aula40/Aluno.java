@@ -1,20 +1,10 @@
-package loianeGroner.aula39.teste;
-
-import loianeGroner.aula39.Pessoa;
+package loianeGroner.aula40;
 
 public class Aluno extends Pessoa {
-
+	
 	private String curso;
 	private double[] notas;
 	
-	public Aluno() {
-		super();
-	}
-	
-	public Aluno(String nome, String endereco, String telefone) {
-		super(nome, endereco, telefone);
-	}
-
 	public String getCurso() {
 		return curso;
 	}
@@ -36,14 +26,11 @@ public class Aluno extends Pessoa {
 		return true;
 	}
 	
-	public void metodoQualquer() {
-		super.setCpf("01283704919");
-		this.setCpf("01283704919");
-	}
-	
-	public void verificarAcesso() {
-		super.nomeVisibilidade = "Maria";
-		super.setNomeVisibilidade("Maria");;
+	public String obterEtiquetaEndereco() {
+		String s = "Endereço do Aluno: ";
+		s += super.getEndereco();
+		
+		return s;
 	}
 	
 }
