@@ -1,4 +1,4 @@
-package loianeGroner.aula37;
+package loianeGroner.aula38;
 
 public class Pessoa {
 
@@ -7,16 +7,6 @@ public class Pessoa {
 	private String telefone;
 	private String cpf;
 	private String telefoneCelular;
-	
-	public Pessoa() {
-	}
-	
-	public Pessoa(String nome, String endereco, String telefone) {
-		super();
-		this.nome = nome;
-		this.endereco = endereco;
-		this.telefone = telefone;
-	}
 	
 	public String getNome() {
 		return nome;

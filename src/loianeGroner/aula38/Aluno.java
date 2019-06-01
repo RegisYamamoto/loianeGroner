@@ -1,19 +1,10 @@
-package loianeGroner.aula37;
+package loianeGroner.aula38;
 
 public class Aluno extends Pessoa {
-
+	
 	private String curso;
 	private double[] notas;
 	
-	public Aluno() {
-		super();
-	}
-	
-	public Aluno(String nome, String endereco, String telefone) {
-		super(nome, endereco, telefone);
-		this.curso = curso;
-	}
-
 	public String getCurso() {
 		return curso;
 	}
@@ -33,11 +24,6 @@ public class Aluno extends Pessoa {
 	
 	public boolean verificarAprovado() {
 		return true;
-	}
-	
-	public void metodoQualquer() {
-		super.setCpf("01283704919");
-		this.setCpf("01283704919");
 	}
 	
 }
